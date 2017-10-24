@@ -64,11 +64,40 @@ content {
 /* Tea of the Month */
 
 .month {
-  display: flex;
-  flex-flow: column wrap;
-  margin: auto;
+  margin: 0 auto;
   width: 1000px;
   padding-top: 50px;
   text-align: center;
+}
+
+.offer {
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
+}
+
+.berry {
+  padding: 0 15px;
+}
+
+.rumtea {
+  padding: 0 15px;
+}
+
+.donuts {
+  padding: 0 15px;
+}
+
+.avetea {
+  padding: 0 15px;
+}
+
+.bedford {
+  padding: 0 15px;
+}
+
+.offer h4 {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
