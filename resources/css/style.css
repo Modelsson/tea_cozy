@@ -6,30 +6,69 @@ body {
   opacity: 0.9;
 }
 
+/* HEADER & NAVIGATION */
+
 header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   position: fixed;
+  top: 0;
   z-index: 1;
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
+  background-color: black;
 }
 
 .logo {
-  padding-left: 10px;
+  padding: 10px;
   height: 50px;
 }
 
 .logoholder {
   flex-grow: 1;
-  border: 1px solid red;
 }
 
 nav span {
-  display: inline-flex;
+  display: inline-block;
   text-decoration: underline;
   padding: 10px 30px;
-  border: 1px solid red;
+}
+
+/* MAIN CONTENT */
+
+/* mission */
+
+.content {
+  margin: auto;
+  display: relative;
+  padding-top: 61px;
+}
+
+.mission {
+  background: url("../media/img-mission-background.jpg");
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+  justify-content: center;
+}
+
+content {
+  background: black;
+}
+
+/* Tea of the Month */
+
+.month {
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  width: 1000px;
+  padding-top: 50px;
+  text-align: center;
+  justify-content: center;
 }
