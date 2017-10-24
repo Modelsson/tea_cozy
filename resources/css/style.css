@@ -65,7 +65,7 @@ content {
 
 .month {
   margin: 0 auto;
-  width: 1000px;
+  width: 1200px;
   padding-top: 50px;
   text-align: center;
 }
@@ -108,7 +108,7 @@ content {
   background: url('../media/img-locations-background.jpg');
   display: flex;
   flex-flow: column;
-  margin: 40px auto 0 auto;
+  margin: 40px auto 0;
   height: 500px;
   width: 1200px;
   justify-content: center;
